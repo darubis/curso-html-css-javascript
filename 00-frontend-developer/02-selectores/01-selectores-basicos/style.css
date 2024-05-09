@@ -1,0 +1,32 @@
+/* selector universal */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* selector de etiqueta */
+h1{
+    color: white;
+    background-color: black;
+    margin-bottom: 35px;
+}
+
+/* selector de clase */
+.clase{
+    background-color: rgb(36, 32, 32);
+    color: white;
+}
+
+/* selector de id */
+#identificador{
+    background-color: pink;
+}
+
+/* selector mas especifico */
+a[href="https://platzi.com"]{
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
