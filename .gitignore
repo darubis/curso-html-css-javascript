@@ -113,3 +113,6 @@ $RECYCLE.BIN/
 
 #ignore .pdf
 *.pdf
+
+#temporales de visual studio
+.vscode
